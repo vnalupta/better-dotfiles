@@ -1,0 +1,22 @@
+## --------------------
+## Aliases
+## --------------------
+
+# navigation
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# dir
+alias ll="ls -lah"
+alias alps="ls -alps"
+alias alsp="ls -alps"
+
+# git 
+alias gs="git status"
+alias stats="git status"
+
+# docker
+alias dckill="docker stop $(docker ps -a -q)"
+alias dc="docker compose -f docker-compose.m1.yaml"
